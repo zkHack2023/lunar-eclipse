@@ -5,6 +5,7 @@ import Link from 'next/link';
 import * as ethers from 'ethers';
 import detectEthereumProvider from '@metamask/detect-provider';
 import DemoComponent from '../components/dapp-demo';
+import '../web3/manta-connector.mjs';
 
 const XCMTransactorDemo = () => {
   // Initial State

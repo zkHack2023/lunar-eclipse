@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
@@ -24,14 +25,20 @@
     "ethers": "^5.5.3",
     "isomorphic-fetch": "^3.0.0",
     "manta.js": "^0.0.7-dev0",
-    "next": "^10.0.8",
+    "next": "^13.2.4",
     "next-routes": "^1.4.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "semantic-ui-react": "^2.0.3",
     "typescript": "4.9.5"
   },
   "resolutions": {
     "@polkadot/wasm-bridge": "7.0.3"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "node-sass": "^8.0.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2"
   }
 }
