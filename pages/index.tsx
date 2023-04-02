@@ -4,9 +4,11 @@ import Head from 'next/head';
 import Link from 'next/link';
 import * as ethers from 'ethers';
 import detectEthereumProvider from '@metamask/detect-provider';
+import { MantaPrivateWallet, SbtMantaPrivateWallet, Environment, Network, MantaUtilities } from 'manta.js';
 import DemoComponent from '../components/dapp-demo';
+import { hot } from 'react-hot-loader';
 
-const XCMTransactorDemo = () => {
+const App = () => {
   // Initial State
   const [account, setAccount] = useState('Not Connected');
   const [connected, setConnected] = useState(false);
@@ -155,4 +157,4 @@ const XCMTransactorDemo = () => {
   );
 };
 
-export default XCMTransactorDemo;
+export default hot(module)(App)
