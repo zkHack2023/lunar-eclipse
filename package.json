@@ -24,7 +24,7 @@
     "async": "^3.2.3",
     "ethers": "^5.5.3",
     "isomorphic-fetch": "^3.0.0",
-    "manta.js": "^0.0.7-dev0",
+    "manta.js": "^0.0.7-dev1",
     "next": "^13.2.4",
     "next-routes": "^1.4.2",
     "react": "^18.2.0",
